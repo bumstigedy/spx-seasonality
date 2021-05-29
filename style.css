@@ -1,0 +1,36 @@
+
+.body {margin-left: 15px;
+};
+.container {
+    display: inline; /* or inline-flex */
+    justify-items: left;
+    justify-content: left;
+    padding-left: 50px;
+   
+    
+
+  };
+  
+  
+  
+  h1 {
+    text-align:center;
+    margin-left: 15px;
+};
+
+.container-top {
+  padding: 30px;
+
+};
+
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Returns</title>
+        <div> </div>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+    
+    <div class = "container-top"> 
+        <h1> Average Returns by Month</h1>
+        
+
+    </div>
+    <div style = "padding: px; border-bottom: 2px solid black;"> </div>
+    <div class = "container">
+        <article style ="padding: 20px;"> Let's look at S&P 500 returns by month.  Sell in May and go away? Read on and find out. 
+        The chart below shows the average return by month since 1928.  I often hear so called financial experts say to sell in May and go away.  
+        I wanted to look at some data to see if this actually makes any sense.  It seems that May does have a negative return 
+        overall, so there is something to this conventional wisdom.  September is much worse on average, so maybe we should avoid that month too.
+        Maybe sell in April and then buy back in September or October.     
+        
+        </article>
+        <div class = "container"> <canvas id="myChart" style = "width: 100%; max-width: 700px"></canvas> </div>
+        
+        
+    </div>
+    
+    <div class = "container">
+        <article style = "padding: 20px;">
+        This chart shows the average return by quarter.  Although May is in 2Q, it is one of the better quarters due to April.  
+
+        </article>
+        <div class = "container"> <canvas id="qtrChart" style = "width: 100%; max-width: 700px"></canvas> </div>
+        
+    </div>
+    
+    <div class = "container">
+        <article style = "padding: 20px;">
+            The purpose of this chart is to see how good or bad it could be in a given month.  The standard deviation, shown by the bars, is pretty similar by month, but the
+            minimum and maximum returns are not.  October is notorious for crashes, but September's minimum of around 30% is pretty scary!    
+    
+            </article>
+        <div class = "container"> <canvas id="volChart" style = "width: 100%; max-width: 700px"></canvas> </div>
+        
+    </div>
+
+    <div class = "container">
+        <article style = "padding: 20px;">
+            OK, I couldn't resist putting this chart together! I looked at the total return for each president over their term and then calculated
+            the average for the Democrats and Republicans.  I have seen others show this as an average annual return, but I wanted to look at the total return.
+            Those that had more than one term had more time to increse or decrease their returns.     
+    
+            </article>
+        <div class = "container"> <canvas id="partyChart" style = "width: 100%; max-width: 700px"></canvas> </div>
+       
+    </div>
+    
+       
+
+   
+    
+    <div style = "padding: 20px;">   </div>
+
+
+    <script src="test.js"></script>
+
+
+</body>
+</html>
