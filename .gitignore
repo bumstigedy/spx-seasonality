@@ -12,6 +12,7 @@ __pycache__/
 # Folders
 bin/
 lib64/
+*.cfg
 
 # Distribution / packaging
 .Python
