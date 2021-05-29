@@ -7,8 +7,8 @@ __pycache__/
 *.so
 
 # Data files
-.csv
-.json
+*.csv
+*.json
 
 # Distribution / packaging
 .Python
